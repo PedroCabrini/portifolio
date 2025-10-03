@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    height: 100px;
+}
+
+#flex{
+    display: flex;
+}
+
+#interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#btn_contato button{
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover, form #btn_enviar input:hover{
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px teal;
+}
+
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: cornflowerblue;
+}
+
+header{
+    padding: 40px;
+}
+
+header > #interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: cornflowerblue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20px;
+}
+
+section.topo{
+    padding: 40px 4%;
+}
+
+section.topo #flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo h1{
+    color: white;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.topo #txt_top_site h1 span{
+    color: cornflowerblue;
+}
+
+.topo #txt_top_site p{
+    margin: 40px 0;
+    color: white;
+    text-align: justify;
+}
+
+.topo .img_topo img{
+    position: relative;
+    height: 570px;
+    width: 400px;
+}
+
+section.espec{
+    padding: 40px 4%;
+}
+
+section.espec #flex{
+    gap: 60px;
+}
+
+.espec .espec_box{
+    color: white;
+    padding: 40px;
+    border: 2px solid white;
+    margin-top: 45px;
+    border-radius: 15px;
+    transition: .2s;
+}
+
+.espec .espec_box i{
+    font-size: 70px;
+    color: cornflowerblue;
+}
+
+.espec .espec_box p{
+    font-size: 26px;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.espec .espec_box:hover{
+    transform: scale(1.05px);
+    box-shadow: 0 0 15px teal;
+    transition: 1s;
+}
+
+section.hobbie{
+    padding: 40px 4%;
+}
+
+#txt_hobbie{
+    color: white;
+}
+
+ #flex{
+    align-items: center;
+    gap: 60px;
+}
+
+section.hobbie h2{
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+section.hobbie h2 span{
+    color: cornflowerblue;
+}
+
+.hobbie #txt_hobbie p{
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.btn_rs button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    margin: 0 4px;
+}
+
+section.form{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.564);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+form input::placeholder{
+    color: rgba(100, 148, 237, 0.289);
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form #btn_enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form #btn_enviar input{
+    width: 120px;
+    background-color: cornflowerblue;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px grey;
+}
+
+footer #flex{
+    justify-content: space-between;
+}
+
+footer .line_footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid cornflowerblue;
+}
+
+footer .line_footer p i{
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+footer .line_footer p a{
+    color: white
+}
+
+footer span{
+    color: cornflowerblue;
+}
+#btn_inicio button{
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
